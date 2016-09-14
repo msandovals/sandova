@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin-ext' rel='stylesheet' type='text/css'/>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"/>
+
+	<script src="https://use.fontawesome.com/305a7b2a1b.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/dfsk-bustamante.css"/>
+    <script src="Scripts/jquery-1.12.4.min.js"></script>
+    <!-- Agregando JS de sitio -->
+	<script src="js/dfsk-bustamante.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="contenedor-principal">
+         <!--INICIO HEADER-->
+        <div id="boton-flotante">
+		    <a href="cotizar.aspx"><img src="imagenes/DFSK-Bustamante-Cotiza-aqui.gif" /></a>
+	    </div>
+	    <div id="cabecera">
+		    <div id="contenedor-logo"><a href="index.aspx"><img src="imagenes/logo-DFSK-Bustamante.png" /></a></div>
+		    <div id="contenedor-info">
+			    <p><a href="tel:800350055">Teléfono: 800 350 055 <span class="glyphicon glyphicon-phone"></span></a></p>
+			    <p><a href="https://goo.gl/maps/58ptBEQsuxN2" target="_blank">General Bustamante 638, Ñuñoa <span class="glyphicon glyphicon-map-marker"></span></a></p>
+		    </div>
+		    <div style="clear:both;"></div>
+	    </div>
+	    <div id="menu">
+		    <label for="mostrar-menu" id="menu-logo">Menú <i class="fa fa-bars" aria-hidden="true"></i></label>
+		    <input type="checkbox" id="mostrar-menu" role="button" />
+		    <ul>
+			    <li><a href="index.aspx">Inicio</a></li>
+			    <li><a href="modelo.aspx">Modelos</a></li>
+			    <li><a href="servicio_tecnico.aspx">Servicio técnico</a></li>
+			    <li><a href="repuestos.aspx">Repuestos</a></li>
+			    <li><a href="financiamiento.aspx">Financiamiento</a></li>
+			    <li><a href="garantia.aspx">Garantía</a></li>
+			    <li><a href="cotizar.aspx">Cotizar</a></li>
+			    <li><a href="contacto.aspx">Contacto</a></li>
+		    </ul>
+	    </div>
+         <!--FIN HEADER-->
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+              
+
+        
+        </asp:ContentPlaceHolder>
+
+       <!--INICIO FOOTER-->
+       <div id="contenedor-pie">
+		<div id="pie">
+			<div id="info-pie">
+				<p><a href="https://goo.gl/maps/58ptBEQsuxN2" target="_blank">Av. Bustamante 638, Ñuñoa</a></p>
+                <p>Ventas: L-V de 9:00-19:00. S de 10:00-14:00</p>
+                <p>Servicios: L-V de 8:30-18:30</p>
+				<p><a href="tel:800350055">800 350 055</a></p>
+                <p><a href="legales.aspx">Términos y condiciones</a></p>
+			</div>
+			<div id="menu-pie">
+				<ul>
+					<li><a href="index.aspx">Home</a></li>
+					<li><a href="modelo.aspx">Modelos</a></li>
+					<li><a href="servicio_tecnico.aspx">Servicio técnico</a></li>
+					<li><a href="repuestos.aspx">Repuestos</a></li>
+					<li><a href="financiamiento.aspx">Financiamiento</a></li>
+					<li><a href="garantia.aspx">Garantía</a></li>
+					<li><a href="cotizar.aspx">Cotizar</a></li>
+					<li><a href="contacto.aspx">Contacto</a></li>
+				</ul>
+				<img id="logo-blanco-dfsk" src="imagenes/logo-dfsk-bustamante-blanco.png" />
+				<img src="imagenes/logo-indumotora-blanco.png" />
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+    <div id="fin">
+        © 2016 DFSK Bustamante - Santiago, Chile
+    </div>
+    <!--FIN FOOTER-->
+
+    </div>
+    </form>
+    <script src="Scripts/bootstrap.js"></script>
+
+    <!-- Agregando Fotorama -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+</html>

@@ -1,0 +1,702 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+/*Cabecera*/
+#cabecera{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+#contenedor-logo{
+	width: 49.5%;
+	float: left;
+}
+#contenedor-info{
+	width: 49.5%;
+	float: right;
+	text-align: right;
+	font-size: 18px;
+	font-weight: 300;
+}
+#contenedor-info p{
+	margin: 0;
+	line-height: 33px;
+}
+#contenedor-info a{
+	color: black;
+}
+#contenedor-info a:hover{
+	text-decoration: none;
+	font-weight: 500;
+}
+#contenedor-info .glyphicon{
+	color: #fe8f0d;
+}
+/*Fin cabecera*/
+
+/*Menú*/
+#menu{
+	font-size: 18px;
+	font-weight: 500;
+	border-bottom: solid 4px #f68e1e;
+	text-align: center;
+	line-height: 44px;
+	min-height: 40px;
+}
+#menu-logo{
+	background: #1b1464;
+	color: white;
+	padding: 0 20px;
+	text-align: right;
+	display: none;
+	font-weight: 500;
+	margin: 0;
+}
+#menu-logo i{
+	margin-left: 10px;
+}
+#mostrar-menu{
+	display: none;
+}
+#mostrar-menu:checked ~ ul{
+	display: block;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	background: #1b1464;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 19px;
+}
+#menu a{
+	color: white;
+	display: block;
+}
+#menu li:hover a{
+	text-decoration: none;
+	color: #005696;
+
+	transition: all ease-out 0.1s;
+	-moz-transition: all ease-out 0.1s;
+	-ms-transition: all ease-out 0.1s;
+	-o-transition: all ease-out 0.1s;
+	-webkit-transition: all ease-out 0.1s;
+}
+/*Fin menú*/
+
+.contenedor-titulo{
+	background: #f68e1e;
+	border-bottom: 4px solid #ef6c00;
+    margin-top: -4px;
+}
+h1{
+	color: white;
+	font-size: 40px;
+	line-height: 66px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+}
+h1 span{
+	font-weight: 500;
+}
+h1 .glyphicon{
+	color: #1b1464;
+}
+h1 a{
+	color: white;
+}
+h1 a:hover{
+	text-decoration: none;
+	color: white;
+}
+h2{
+	font-size: 26px;
+	line-height: 44px;
+	font-weight: 700;
+	margin-bottom: 22px;
+    margin-top: 0;
+    color: #1b1464;
+}
+p + h2, ul + h2, div + h2, .columna-izq h2, .columna-derecha h2{
+    margin-top: 44px;
+}
+p{
+    margin: 0 0 22px;
+}
+.fotorama{
+	background: #f2f2f2;
+}
+.cuerpo .fotorama{
+    margin-top: -10px;
+}
+.cuerpo{
+	background: #f2f2f2;
+	padding: 40px 0;
+}
+#contenedor-banners-home{
+	margin-bottom: 20px;
+}
+.banner{
+	margin-bottom: 20px;
+	display: inline-block;
+}
+#contenedor-banners-home .banner{
+	width: 33%;
+	margin-right: 0.5%;
+}
+#contenedor-banners-cotizar .banner, .contenedor-banners .banner{
+	width: 48%;
+	margin-right:4%;
+}
+#contenedor-banners-cotizar .banner:last-child, #contenedor-banners-home .banner:last-child{
+	margin-right: 0;
+}
+.banner-titulo{
+	border-bottom: solid 70px #005696;
+    border-right: 41px solid transparent;
+	width: 94%;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.banner-titulo:hover{
+	width: 100%;
+}
+.banner-titulo a{
+    width: 100%;
+    float: left;
+	color: white;
+	line-height: 70px;
+	margin-left: 15px;
+	font-weight: 300;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.banner-titulo a img{
+    position: relative;
+    top: -4px;
+}
+.banner-titulo a:after{
+	content: "►";
+	font-size: 14px;
+	vertical-align: middle;
+	float: right;
+	padding-right: 15px;
+}
+.banner-titulo a:hover{
+	text-decoration: none;
+}
+.bajada{
+	border-bottom: solid 30px #1b1464;
+    border-right: solid 19px transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	width: 94%;
+	line-height: 30px;
+}
+.bajada span{
+	margin-left: 15px;
+    float: left;
+}
+#mapa-info-home iframe{
+	width: 49%;
+	height: 240px;
+	margin-right: 2%;
+}
+#info-mapa{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+#titulo-mapa{
+	background: #f68e1e;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 44px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+#info-mapa .destacado{
+	color: #005696;
+	font-size: 18px;
+}
+#info-mapa p{
+    margin: 0 0 11px;
+}
+.serie{
+	margin-bottom: 40px;
+}
+.cuerpo .serie:last-child{
+	margin-bottom: 0;
+}
+.modelo{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.modelo a img{
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+.boton-modelos{
+    border-bottom: 42px solid #005696;
+    border-right: 22px solid transparent;
+    font-weight:300;
+    margin: 0 10px;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.boton-modelos:hover{
+    border-bottom: 42px solid #1b1464;
+}
+.boton-modelos a{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    float: left;
+    line-height: 42px;
+}
+.boton-modelos:hover a{
+    font-weight:500;
+}
+.boton-modelos a:hover{
+    text-decoration: none;
+}
+.version{
+	margin-bottom: 40px;
+}
+.version .boton-cotiza{
+    margin: 22px 0;
+    border-bottom: 44px solid #005696;
+    border-right: 42px solid transparent;
+    width: 200px;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.version .boton-cotiza a{
+	color: white;
+	width: 100%;
+    font-size: 18px;
+	text-align: center;
+    line-height: 44px;
+    float: left;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.version .boton-cotiza:hover{
+    border-bottom: 44px solid #1b1464;
+}
+.version .boton-cotiza a:hover{
+	text-decoration: none;
+}
+.especificaciones{
+	font-size: 20px;
+	line-height: 44px;
+    font-weight: 700;
+}
+.cuerpo ul{
+    list-style: none;
+    padding:0;
+    margin:11px 0;
+}
+.cuerpo ul li:before {
+    content: "•";
+    color: #005696;
+    padding-right:7px;
+}
+.precios .titulo{
+	font-size: 20px;
+	line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.precio-final{
+	font-weight: 700;
+	font-size: 26px;
+	color: #f68e1e;
+	text-transform: uppercase;
+	line-height: 66px;
+}
+.ficha-tecnica a{
+	line-height: 44px;
+    color: #005696;
+    text-decoration: underline;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.ficha-tecnica a:hover{
+    color: #1b1464;
+}
+#lista-servicio-tec, #lista-garantia, #lista-repuestos{
+    margin-bottom:44px;
+}
+i{
+    color: #f68e1e;
+}
+.legal{
+	font-size: 12px;
+    margin-bottom: 44px;
+}
+.fondo-formulario{
+	background: white;
+	padding: 44px;
+	border-radius: 4px;
+	margin-top: 44px;
+    margin-bottom: 22px;
+}
+.mensaje-formulario{
+    text-align: center;
+}
+.mensaje-formulario img{
+    margin-top: 22px;
+    margin-bottom: 44px;
+}
+p .destacado{
+	color: #005696;
+}
+.fondo-azul-oscuro, .fondo-azul-claro{
+	padding: 9px 22px;
+    color: white;
+}
+.fondo-azul-oscuro{
+	background: #1b1464;
+}
+.fondo-azul-claro{
+	background: #005696;
+}
+.fondo-azul-claro ul li:before{
+	color: #1b1464;
+}
+#actividades-financiamiento{
+    margin: 22px 0;
+}
+
+/*Imágenes*/
+.imagenes-cabecera{
+    margin-bottom: 22px;
+    width: 100%;
+}
+.icono{
+    font-size: 1.5em;
+    margin-right: 7px;
+    float:left;
+}
+.fa-car.icono{
+    font-size: 1.2em;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+#imagenes-repuestos{
+    text-align: center;
+    margin-bottom: 44px;
+}
+#imagenes-repuestos img{
+    width: 20%;
+    margin: 0 1%;
+}
+/*Fin imágenes*/
+
+/*Formularios*/
+label{
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+.form-group{
+    margin-bottom: 22px;
+}
+.form-control{
+    height: 44px;
+    font-size: 16px;
+    font-weight: 300;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #005696;
+}
+.boton-formulario{
+    background: #f68e1e;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+.boton-formulario:hover{
+    background: #ef6c00;
+}
+/*Fin formularios*/
+
+/*Botones volver y subir*/
+#volver a, #subir{
+    font-weight:bold;
+    color: #f68e1e;
+}
+#volver i, #subir i{
+    color: #1b1464;
+}
+#volver a:hover, #subir:hover{
+    text-decoration: none;
+    color: #ef6c00;
+    cursor: pointer;
+}
+#volver{
+    display: inline-block;
+}
+#subir{
+    float: right;
+}
+/*Fin volver y subir*/
+
+/*Pie*/
+#contenedor-pie{
+	background: #f68e1e;
+	padding: 44px 0;
+	color: white;
+	border-top: 2px solid #ef6c00;
+}
+#pie{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#pie p{
+	margin: 0;
+	font-weight: 300;
+}
+#pie a{
+	color: white;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+#pie a:hover{
+	text-decoration: none;
+	color: #ef6c00;
+}
+#info-pie{
+	float: left;
+}
+#menu-pie{
+	float: right;
+	text-align: right;
+}
+#menu-pie ul{
+	padding: 0;
+	margin: 0 0 20px;
+}
+#menu-pie li{
+	display: inline-block;
+	margin: 0 5px;
+}
+#logo-blanco-dfsk{
+	margin-right: 40px;
+}
+#boton-flotante{
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	margin-top: 200px;
+	opacity: 0.8;
+	
+	transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-ms-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-webkit-transition: all ease-out 0.3s;
+}
+#boton-flotante:hover{
+	opacity: 1;
+}
+#fin{
+    background: #ef6c00;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight:300;
+}
+/*Fin pie*/
+
+
+@media all and (min-width: 1050px){
+	.ancho-fijo{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 1049px){
+	.ancho-fijo{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#pie{
+		margin: 0 20px;
+	}
+}
+
+
+@media all and (max-width: 1049px) and (min-width: 768px){
+	#cabecera{
+		padding: 30px 20px;
+	}
+    #menu li{
+        margin: 0 12px;
+    }
+}
+
+
+@media all and (min-width: 768px){
+    #lista-servicio-tec li, #lista-garantia li, #lista-repuestos li{
+        display:inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+    #lista-servicio-tec li:nth-child(odd), #lista-garantia li:nth-child(odd), #lista-garantia li:nth-child(odd){
+        margin-right: 4%;
+    }
+    .columna-izq, .columna-derecha{
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+    .columna-izq{
+        margin-right: 4%;
+    }
+    .flota-derecha{
+        float: right;
+        margin-left: 44px;
+        margin-top: -13px;
+    }
+}
+
+
+@media all and (max-width: 767px){
+	#cabecera{
+		padding: 20px 0;
+	}
+	#contenedor-logo{
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+	#contenedor-logo img{
+		height: 40px;
+	}
+	#contenedor-info{
+		display: none;
+	}
+	#menu-logo{
+		display: block;
+	}
+	#menu ul{
+		display: none;
+	}
+	#menu li{
+		background: #005696;
+		display: block;
+		height: 40px;
+		border-bottom: 1px solid #004570;
+		text-align: left;
+		padding: 0 30px;
+		margin: 0;
+	}
+	#menu li:first-child{
+		border-top: 1px solid #004570;
+	}
+	#menu li:last-child{
+		border-bottom: none;
+	}
+	#contenedor-banners-home .banner, #contenedor-banners-cotizar .banner, .contenedor-banners .banner{
+		width: 100%;
+		display: block;
+		margin-right: 0;
+		text-align: center;
+	}
+	.banner-titulo{
+		width: 100%;
+	}
+	.bajada{
+		width: 100%;
+	}
+    .bajada span{
+        width: 100%;
+        margin-left: 0;
+    }
+	#mapa-info-home{
+		display: none;
+	}
+	.modelo{
+		width: 49%;
+		text-align: center;
+	}
+    .flota-derecha{
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .flota-derecha img{
+        width: 100%;
+    }
+    .mensaje-formulario img{
+        width: 100px;
+        height: auto;
+    }
+    #imagenes-repuestos img{
+        width: 23%;
+    }
+	#info-pie{
+		line-height: 44px;
+		font-size: 20px;
+		font-weight: 500;
+	}
+	#menu-pie{
+		display: none;
+	}
+}

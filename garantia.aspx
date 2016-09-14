@@ -1,0 +1,42 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainPage.master" AutoEventWireup="true" CodeFile="garantia.aspx.cs" Inherits="garantia" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+	<div class="contenedor-titulo">
+		<div class="ancho-fijo"><h1>Garantía</h1></div>
+	</div>
+	<div class="cuerpo">
+		<div class="ancho-fijo">
+            <h2>Cobertura de 5 años o 100.000 kms</h2>
+            <div class="flota-derecha">
+                <img style="max-width: 265px;" src="imagenes/DFSK-Bustamante-Garantia.png" alt="DFSK Bustamante Garantía" />
+            </div>
+			<p>La garantía tiene una cobertura de 5 años o 100.000 kms, prevaleciendo la condición que ocurra primero.</p>
+			<p>La validez de la garantía está sujeta al cumplimiento del plan de mantenimiento periódico especificado en el manual del propietario, así como también su cobertura sobre partes, piezas y componentes del vehículo.</p>
+			<h2>Excepciones a la Garantía</h2>
+			<i class="fa fa-calendar icono" aria-hidden="true"></i><p>Batería por 1 año a 100% y sin límite de km.</p>
+			<i class="fa fa-truck icono" aria-hidden="true"></i><p>Neumáticos o cámaras por 6 meses o 10.000 km.</p>
+			<h2>Excepciones a los 24 meses o 50.000 kms</h2>
+			<p>La garantía de los siguientes elementos está limitada hasta los 24 meses o 50.000 kms.</p>
+			<ul id="lista-garantia">
+				<li>Equipo de sonido (altavoces y sistema de sonido)</li><!--
+				--><li>Convertidores catalíticos</li><!--
+				--><li>Alternadores</li><!--
+				--><li>Motor de partido</li><!--
+				--><li>Compresor de A/C</li><!--
+				--><li>Tapices</li><!--
+				--><li>Gomas de puertas o ventana</li><!--
+				--><li>Embellecedores en general</li><!--
+				--><li>Radiadores</li><!--
+				--><li>Evaporadores</li><!--
+				--><li>Condensadores</li><!--
+				--><li>Cremalleras de dirección y columnas de dirección</li><!--
+				--><li>Reloj control A/C y mangueras del sistema de A/C</li>
+			</ul>
+		</div>
+	</div>
+    <script>agregarVolverSubir("index")</script>
+    
+</asp:Content>
