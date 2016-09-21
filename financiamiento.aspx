@@ -65,6 +65,9 @@
 			</div>
 		</div>
 	</div>
-    <script>agregarVolverSubir("index");</script>
+    <script>
+        agregarVolverSubir("index");
+        agregarMenuActivo("financiamiento");
+    </script>
 
 </asp:Content>

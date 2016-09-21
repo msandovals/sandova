@@ -26,3 +26,7 @@ function agregarVolverSubir(nivel) {
 
     $(".cuerpo .ancho-fijo").append(volverSubir);
 }
+
+function agregarMenuActivo(pagina) {
+    $("#" + pagina).addClass("menu-activo");
+}

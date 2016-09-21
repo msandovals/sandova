@@ -14,7 +14,7 @@ public partial class ctrlCotizar : System.Web.UI.UserControl
 {
     private string _motivoCotiza;
     private string _pais ="1";
-    private string _marca = "101429";
+    private string _marca = "DFSK";
     private String sServer_correo = ConfigurationManager.AppSettings.Get("SERVER_CORREO");
     private String sPUERTO_CORREO = ConfigurationManager.AppSettings.Get("PUERTO_CORREO");
 

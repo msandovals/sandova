@@ -13,7 +13,6 @@
 
     <div class="cuerpo">
         <div class="ancho-fijo">
-            <p>Este es un cambio</p>
         <p>Si desea contactarse con nosotros, deje sus datos en este formulario y nosotros le responderemos a la brevedad.</p>
         <p>Campos Obligatorios: (*)</p>
 
@@ -22,5 +21,8 @@
             </div>
         </div>
     </div>
-    <script>agregarVolverSubir("index")</script>
+    <script>
+        agregarVolverSubir("index");
+        agregarMenuActivo("contacto");
+    </script>
 </asp:Content>

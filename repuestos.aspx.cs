@@ -14,6 +14,7 @@ using System.Web.UI.WebControls;
             if (!IsPostBack)
             {
                 ctrlContacto.MotivoContacto = "1";
+            ctrlContacto.tipoFormulario = "repuestos";
             }
         }
 

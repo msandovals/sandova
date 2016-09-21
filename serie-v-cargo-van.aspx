@@ -26,7 +26,7 @@
 					    <li>Largo / ancho / alto total (mm): 3.905 / 1.635 / 1.950</li>
 					    <li>Largo / ancho / alto carga (mm): 2.165 / 1.425 / 1.330</li>
 				    </ul>
-				    <div class="ficha-tecnica"><a href="pdf/serie-c.pdf" target="_blank">Descarga la ficha técnica (PDF)</a></div>
+				    <div class="ficha-tecnica"><a href="pdf/serie-c.pdf" target="_blank" class="descargable">Descarga la ficha técnica (PDF)</a></div>
                 </div><!--
                 --><div class="columna-derecha">
 				    <div class="precios">
@@ -44,6 +44,9 @@
 				<div class="legal">* Precios son referenciales, incluyen los bonos y deben ser confirmados directamente con el concesionario.</div>
 		</div>
 	</div>
-    <script>agregarVolverSubir("modelo");</script>
+    <script>
+        agregarVolverSubir("modelo");
+        agregarMenuActivo("modelos");
+    </script>
 
 </asp:Content>

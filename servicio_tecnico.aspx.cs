@@ -12,6 +12,7 @@ public partial class servicio_tecnico : System.Web.UI.Page
         if (!IsPostBack)
         {
             ctrlContacto.MotivoContacto = "2";
+            ctrlContacto.tipoFormulario = "servicio";
         }
     }
 

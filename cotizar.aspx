@@ -31,7 +31,10 @@
 			</div>
 		</div>
 	</div>
-    <script>agregarVolverSubir("index")</script>
+    <script>
+        agregarVolverSubir("index");
+        agregarMenuActivo("cotizar");
+    </script>
 </asp:Panel>
 
 <asp:Panel ID="panelFormulario" runat="server" Visible="false">

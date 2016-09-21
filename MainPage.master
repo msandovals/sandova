@@ -37,14 +37,14 @@
 		    <label for="mostrar-menu" id="menu-logo">Menú <i class="fa fa-bars" aria-hidden="true"></i></label>
 		    <input type="checkbox" id="mostrar-menu" role="button" />
 		    <ul>
-			    <li><a href="index.aspx">Inicio</a></li>
-			    <li><a href="modelo.aspx">Modelos</a></li>
-			    <li><a href="servicio_tecnico.aspx">Servicio técnico</a></li>
-			    <li><a href="repuestos.aspx">Repuestos</a></li>
-			    <li><a href="financiamiento.aspx">Financiamiento</a></li>
-			    <li><a href="garantia.aspx">Garantía</a></li>
-			    <li><a href="cotizar.aspx">Cotizar</a></li>
-			    <li><a href="contacto.aspx">Contacto</a></li>
+			    <li id="inicio"><a href="index.aspx">Inicio</a></li>
+			    <li id="modelos"><a href="modelo.aspx">Modelos</a></li>
+			    <li id="servicio-tecnico"><a href="servicio_tecnico.aspx">Servicio técnico</a></li>
+			    <li id="repuestos"><a href="repuestos.aspx">Repuestos</a></li>
+			    <li id="financiamiento"><a href="financiamiento.aspx">Financiamiento</a></li>
+			    <li id="garantia"><a href="garantia.aspx">Garantía</a></li>
+			    <li id="cotizar"><a href="cotizar.aspx">Cotizar</a></li>
+			    <li id="contacto"><a href="contacto.aspx">Contacto</a></li>
 		    </ul>
 	    </div>
          <!--FIN HEADER-->
@@ -60,14 +60,16 @@
 		<div id="pie">
 			<div id="info-pie">
 				<p><a href="https://goo.gl/maps/58ptBEQsuxN2" target="_blank">Av. Bustamante 638, Ñuñoa</a></p>
-                <p>Ventas: L-V de 9:00-19:00. S de 10:00-14:00</p>
-                <p>Servicios: L-V de 8:30-18:30</p>
+                <p>Ventas:</p>
+                <p>L-V de 9:00-19:00 hrs. S de 10:00-14:00 hrs</p>
+                <p>Servicio y Repuestos:</p>
+                <p>L-V de 8:30-18:30 hrs</p>
 				<p><a href="tel:800350055">800 350 055</a></p>
                 <p><a href="legales.aspx">Términos y condiciones</a></p>
 			</div>
 			<div id="menu-pie">
 				<ul>
-					<li><a href="index.aspx">Home</a></li>
+					<li><a href="index.aspx">Inicio</a></li>
 					<li><a href="modelo.aspx">Modelos</a></li>
 					<li><a href="servicio_tecnico.aspx">Servicio técnico</a></li>
 					<li><a href="repuestos.aspx">Repuestos</a></li>
@@ -83,7 +85,7 @@
 		</div>
 	</div>
     <div id="fin">
-        © 2016 DFSK Bustamante - Santiago, Chile
+        © 2016 DFSK Bustamante
     </div>
     <!--FIN FOOTER-->
 

@@ -20,8 +20,8 @@
             <img class="imagenes-cabecera" src="imagenes/repuestos/DFSK-Bustamante-Banner-repuestos.jpg" alt="DFSK Bustamante Banner repuestos" />
             <h2>Acceda a nuestro mundo de repuestos y accesorios genuinos que le darán más valor a su vehículo</h2>
 			<i class="fa fa-cog icono" aria-hidden="true"></i><p>Los repuestos y accesorios genuinos le garantizan el correcto funcionamiento de su vehículo, al ser partes y piezas certificadas por la marca.</p>
-			<i class="fa fa-car icono" aria-hidden="true"></i><p>Para cotizar algún repuesto específico tenga a mano el número de <strong>VIN</strong> de su automóvil. El <strong>VIN</strong> es el número de chasis que figura también en el padrón de su vehículo.</p>
-			<h2>Beneficios de usar los repuestos genuinos</h2>
+			<i class="fa fa-car icono" aria-hidden="true"></i><p>Para cotizar algún repuesto específico debe indicarnos la cilindrada y modelo de su automóvil.</p>
+			<h2>Beneficios de usar repuestos recomendado por la marca</h2>
 			<div>
                 <ul id="lista-repuestos">
 				    <li>Valorizan su vehículo, su seguridad y la de su familia</li><!--
@@ -47,7 +47,7 @@
                         <asp:LinkButton ID="lnk_contactar" runat="server" Text="<img src='imagenes/DFSK-Bustamante-Repuestos.png' alt='DFSK Bustamante Repuesetos'/> Cotice aquí" OnClick="lnk_contactar_Click">
                         </asp:LinkButton>
                     </div>
-                    <div class="bajada"><span>Repuestos originales</span></div>
+                    <div class="bajada"><span>Su repuesto</span></div>
                 </div>
             </div>
             </asp:Panel>
@@ -58,6 +58,9 @@
             </asp:Panel>
 		</div>
 	</div>
-    <script>agregarVolverSubir("index");</script>
+    <script>
+        agregarVolverSubir("index");
+        agregarMenuActivo("repuestos");
+    </script>
 
 </asp:Content>

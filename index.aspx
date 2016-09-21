@@ -23,7 +23,7 @@
 				</div><!--
 				--><div class="banner">
 					<div class="banner-titulo"><a href="repuestos.aspx"><img src="imagenes/DFSK-Bustamante-Repuestos.png" alt="DFSK Bustamante Respuestos" /> Repuestos</a></div>
-					<div class="bajada"><span>Originales</span></div>
+					<div class="bajada"><span>DFSK</span></div>
 				</div>
 			</div>
 			<div id="mapa-info-home">
@@ -33,13 +33,13 @@
 					<p class="destacado">Dirección:</p>
 					<p>General Bustamante 638, Ñuñoa</p>
 					<p class="destacado">Horario de atención:</p>
-					<p>Ventas: Lunes a viernes 9:00 a 19:00. Sábado 10:00 a 14:00</p>
-					<p>Servicio: Lunes a viernes de 8:30 a 18:30</p>
+					<p>Ventas: Lunes a viernes 9:00 a 19:00 hrs. Sábado 10:00 a 14:00 hrs.</p>
+					<p>Servicio y Repuestos: Lunes a viernes de 8:30 a 18:30 hrs.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-
+    <script>agregarMenuActivo("inicio");</script>
 
 
 </asp:Content>
